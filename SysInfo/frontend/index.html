@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>System Info</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="../static/favicon.ico" />
+    <script src="./Function/cpuScript.js" defer></script>
+    <script src="./Function/memoryScript.js" defer></script>
+    <script src="./Function/diskScript.js" defer></script>
+    <script src="./Function/cpuTempScript.js" defer></script>
+    <script src="./Function/cpuNameScript.js" defer></script>
+    <script src="./Function/motherboardNameScript.js" defer></script>
+    <script src="./Function/gpuScript.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>System Monitoring Dashboard</h1>
+    </header>
+    <main>
+      <section class="card">
+        <h2>GPU Info</h2>
+        <div id="gpu-info"></div>
+      </section>
+
+      <section class="card">
+        <h2>CPU Usage per Core</h2>
+        <div id="cpu-info"></div>
+      </section>
+
+      <section class="card">
+        <h2>Memory Usage</h2>
+        <div id="memory-info"></div>
+      </section>
+
+      <section class="card">
+        <h2>Disk Usage</h2>
+        <div id="disk-info"></div>
+      </section>
+
+      <section class="card">
+        <h2>CPU Temperature Monitor</h2>
+        <div id="temperature-info"></div>
+      </section>
+      <section class="card">
+        <h2>CPU Name</h2>
+        <div id="cpu-name-info"></div>
+      </section>
+
+      <section class="card">
+        <h2>Motherboard Name</h2>
+        <div id="motherboard-info"></div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 System Info Dashboard. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
