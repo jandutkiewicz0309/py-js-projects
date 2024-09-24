@@ -1,17 +1,16 @@
 {
   "configurations": [
     {
-      "name": "windows-gcc-x64",
+      "name": "windows-msvc-x64",
       "includePath": [
         "${workspaceFolder}/**",
-        "C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/um",
-        "C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/shared"
+        "C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/um",   // Umieść tutaj właściwą ścieżkę do Windows SDK
+        "C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/shared" // Shared nagłówki Windows SDK
       ],
-      "defines": [],
-      "compilerPath": "C:/MinGW/bin/gcc.exe",
+      "compilerPath": "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.26.28801/bin/Hostx64/x64/cl.exe",  // Kompilator MSVC
       "cStandard": "c11",
       "cppStandard": "c++17",
-      "intelliSenseMode": "windows-gcc-x64"
+      "intelliSenseMode": "windows-msvc-x64"
     }
   ],
   "version": 4

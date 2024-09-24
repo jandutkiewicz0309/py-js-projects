@@ -5,14 +5,14 @@
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/build/Debug/outDebug", // Plik wynikowy
+      "program": "${workspaceFolder}/build/Debug/outDebug.exe",  // Ścieżka do wynikowego pliku .exe
       "args": [],
       "stopAtEntry": false,
       "cwd": "${workspaceFolder}",
       "environment": [],
       "externalConsole": true,
       "MIMode": "gdb",
-      "miDebuggerPath": "C:/MinGW/bin/gdb.exe", // Ścieżka do gdb
+      "miDebuggerPath": "C:/MinGW/bin/gdb.exe",
       "setupCommands": [
         {
           "description": "Enable pretty-printing for gdb",
@@ -20,7 +20,7 @@
           "ignoreFailures": true
         }
       ],
-      "preLaunchTask": "build", // Wskazanie na task budujący program
+      "preLaunchTask": "build",
       "internalConsoleOptions": "openOnSessionStart"
     }
   ]
